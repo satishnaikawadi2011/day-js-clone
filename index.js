@@ -1,11 +1,11 @@
-const insertAmOrPm = require('./insertAmOrPm');
-const insertDay = require('./insertDay');
-const insertHours = require('./insertHours');
-const insertMinutes = require('./insertMinutes');
-const insertMonth = require('./insertMonth');
-const insertSeconds = require('./insertSeconds');
-const insertWeekday = require('./insertWeekday');
-const insertYear = require('./insertYear');
+const insertAmOrPm = require('./format/insertAmOrPm');
+const insertDay = require('./format/insertDay');
+const insertHours = require('./format/insertHours');
+const insertMinutes = require('./format/insertMinutes');
+const insertMonth = require('./format/insertMonth');
+const insertSeconds = require('./format/insertSeconds');
+const insertWeekday = require('./format/insertWeekday');
+const insertYear = require('./format/insertYear');
 
 function isValid(dateString) {
 	const date = new Date(dateString);

@@ -1,5 +1,5 @@
-const formateNumber = require('./utils/formateNumber');
-const ordinal = require('./utils/ordinal');
+const formateNumber = require('../utils/formateNumber');
+const ordinal = require('../utils/ordinal');
 
 module.exports = function insertDay(date, format) {
 	let partiallyFormated;

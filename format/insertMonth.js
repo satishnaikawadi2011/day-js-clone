@@ -1,4 +1,4 @@
-const formateNumber = require('./utils/formateNumber');
+const formateNumber = require('../utils/formateNumber');
 
 const months = [
 	'January',
